@@ -48,9 +48,6 @@ public class DatePicker extends DialogFragment
             picker.getDatePicker().setMinDate(mMinDate.getTimeInMillis());
         }
 
-        if (mMaxDate != null) {
-            picker.getDatePicker().setMaxDate(mMaxDate.getTimeInMillis());
-        }
 
         return picker;
     }
